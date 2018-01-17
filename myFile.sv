@@ -18,8 +18,8 @@ string Cname = "... LET IT COME ...";
 
 function myFun ();
   string Cname = "... I AM READY ...";
-  $display("name: %0s", this.name);
-  $display("name: %0s", name);
+  $display("name: %0s", this.Cname);
+  $display("name: %0s", Cname);
 endfunction : myFun
 
 endclkass : ChildClass
